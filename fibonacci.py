@@ -9,6 +9,7 @@ def fib(n):
         print b
         result.append(a)
         a,b=b,a+b
+    return result
 
 f100 = fib(100)
 f100
